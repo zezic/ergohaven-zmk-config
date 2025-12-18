@@ -43,10 +43,10 @@
 
         fns {
             bindings = <
-&bootloader  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                  &trans  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
-&none        &none         &trans        &trans        &trans        &out OUT_BLE                  &trans  &kp F4  &kp F5  &kp F6  &none    &kp F12
-&none        &none         &trans        &trans        &trans        &out OUT_USB                  &trans  &kp F1  &kp F2  &kp F3  &none    &none
-                           &none         &none         &none         &none         &none    &none  &none   &none   &none   &none
+&bootloader  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                  &trans  &kp F7  &kp F8   &kp F9   &kp F10  &kp F11
+&none        &none         &trans        &trans        &trans        &out OUT_BLE                  &trans  &kp F4  &kp F5   &kp F6   &none    &kp F12
+&none        &none         &trans        &trans        &trans        &out OUT_USB                  &trans  &kp F1  &kp F2   &kp F3   &none    &kp F22
+                           &none         &none         &none         &none         &none    &none  &none   &none   &kp F23  &kp F24
             >;
 
             display-name = "FNS";

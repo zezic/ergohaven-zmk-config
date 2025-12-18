@@ -16,7 +16,7 @@
                   &kp LCTRL  &kp LEFT_ALT  &lt 1 BACKSPACE  &kp SPACE  &kp LEFT_GUI    &kp RIGHT_ALT  &kp ENTER  &mo 2  &kp LBKT   &kp RBKT
             >;
 
-            display-name = "Base";
+            display-name = "Based";
         };
 
         nav {
@@ -30,36 +30,26 @@
             display-name = "Nav";
         };
 
-        sym {
+        num {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &kp K_PREV        &kp N7  &kp N8  &kp N9  &kp MINUS  &kp EQUAL
-&trans  &trans  &trans  &trans  &trans  &trans                    &kp K_PLAY_PAUSE  &kp N4  &kp N5  &kp N6  &trans     &kp BSLH
-&trans  &trans  &trans  &trans  &trans  &trans                    &kp K_NEXT        &kp N1  &kp N2  &kp N3  &trans     &trans
-                &trans  &trans  &mo 3   &trans  &trans    &trans  &trans            &trans  &kp N0  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &kp C_PREV   &kp N7  &kp N8  &kp N9  &kp MINUS  &kp EQUAL
+&trans  &trans  &trans  &trans  &trans  &trans                    &kp C_PAUSE  &kp N4  &kp N5  &kp N6  &trans     &kp BSLH
+&trans  &trans  &trans  &trans  &trans  &trans                    &kp C_NEXT   &kp N1  &kp N2  &kp N3  &trans     &trans
+                &trans  &trans  &mo 3   &trans  &trans    &trans  &trans       &trans  &kp N0  &trans
             >;
 
-            display-name = "Symbols";
+            display-name = "Numpad";
         };
 
         fns {
             bindings = <
-&bootloader  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                  &trans  &kp F7  &kp F8   &kp F9   &kp F10  &kp F11
-&none        &none         &trans        &trans        &trans        &out OUT_BLE                  &trans  &kp F4  &kp F5   &kp F6   &none    &kp F12
-&none        &none         &trans        &trans        &trans        &out OUT_USB                  &trans  &kp F1  &kp F2   &kp F3   &none    &kp F22
-                           &none         &none         &none         &none         &none    &none  &none   &none   &kp F23  &kp F24
+&bootloader  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &trans  &kp F7  &kp F8   &kp F9   &kp F10  &kp F11
+&trans       &trans        &trans        &trans        &trans        &out OUT_BLE                    &trans  &kp F4  &kp F5   &kp F6   &trans   &kp F12
+&trans       &trans        &trans        &trans        &trans        &out OUT_USB                    &trans  &kp F1  &kp F2   &kp F3   &trans   &kp F22
+                           &trans        &trans        &trans        &trans        &trans    &trans  &trans  &trans  &kp F23  &kp F24
             >;
 
-            display-name = "FNS";
-        };
-
-        adj {
-            display-name = "Adjust";
-            bindings = <
-&bootloader  &none  &kp F1  &kp F2   &kp F3   &kp F4                   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2      &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
-&none        &none  &kp F5  &kp F6   &kp F7   &kp F8                   &out OUT_BLE  &kp C_VOL_DN  &kp K_MUTE        &kp C_VOL_UP  &none         &studio_unlock
-&none        &none  &kp F9  &kp F10  &kp F11  &kp F12                  &out OUT_USB  &kp K_PREV    &kp K_PLAY_PAUSE  &kp K_NEXT    &none         &none
-                    &none   &none    &none    &none    &none    &none  &none         &none         &none             &none
-            >;
+            display-name = "FNs";
         };
 
         User0 {

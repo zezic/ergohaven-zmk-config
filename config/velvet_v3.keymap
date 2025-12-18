@@ -22,9 +22,9 @@
         nav {
             bindings = <
 &kp GRAVE  &trans  &kp HOME   &kp UP    &kp END     &kp C_VOLUME_UP                      &trans  &kp AMPS    &kp STAR     &kp LPAR   &kp RPAR  &trans
-&trans     &trans  &kp LEFT   &kp DOWN  &kp RIGHT   &trans                               &trans  &kp DOLLAR  &kp PERCENT  &kp CARET  &trans    &trans
+&trans     &trans  &kp LEFT   &kp DOWN  &kp RIGHT   &kp K_MUTE                           &trans  &kp DOLLAR  &kp PERCENT  &kp CARET  &trans    &trans
 &trans     &trans  &kp PG_UP  &trans    &kp PG_DN   &kp C_VOLUME_DOWN                    &trans  &kp EXCL    &kp AT       &kp HASH   &trans    &trans
-                   &kp LPAR   &kp RPAR  &kp DELETE  &trans             &trans    &trans  &mo 3   &trans      &trans       &trans
+                   &kp LPAR   &kp RPAR  &kp DELETE  &trans             &trans    &trans  &trans  &mo 3       &trans       &trans
             >;
 
             display-name = "Nav";
@@ -32,10 +32,10 @@
 
         sym {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &kp N7  &kp N8  &kp N9  &kp MINUS  &kp EQUAL
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &kp N4  &kp N5  &kp N6  &trans     &kp BSLH
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &kp N1  &kp N2  &kp N3  &trans     &trans
-                &trans  &trans  &trans  &mo 3   &trans    &trans  &trans  &trans  &kp N0  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &kp K_PREV        &kp N7  &kp N8  &kp N9  &kp MINUS  &kp EQUAL
+&trans  &trans  &trans  &trans  &trans  &trans                    &kp K_PLAY_PAUSE  &kp N4  &kp N5  &kp N6  &trans     &kp BSLH
+&trans  &trans  &trans  &trans  &trans  &trans                    &kp K_NEXT        &kp N1  &kp N2  &kp N3  &trans     &trans
+                &trans  &trans  &mo 3   &trans  &trans    &trans  &trans            &trans  &kp N0  &trans
             >;
 
             display-name = "Symbols";
